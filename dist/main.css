@@ -43,4 +43,101 @@ input {
   color: hsl(228, 45%, 44%);
 }
 
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(/images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.background .containerAll {
+  max-width: 1284px;
+  color: white;
+}
+.background .containerAll .logo {
+  width: 212px;
+  margin-bottom: 82px;
+}
+.background .containerAll .heroAndText {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.background .containerAll .heroAndText__text {
+  width: 620px;
+  padding-left: 53px;
+  padding-top: 43px;
+}
+.background .containerAll .heroAndText__text h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: -0.005em;
+}
+.background .containerAll .heroAndText__text p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 24px;
+}
+.background .containerAll .heroAndText__text button {
+  display: inline-block;
+  width: 200px;
+  height: 55px;
+  border-radius: 55px;
+  padding: 0;
+  padding-bottom: 2px;
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: hsl(257, 40%, 49%);
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  box-shadow: 5px 5px 10px hsl(258, 40%, 31%);
+  transition: all 0.13s ease-in-out;
+}
+.background .containerAll .heroAndText__text button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: rgb(236, 233, 233);
+}
+.background .containerAll .socialIcons {
+  display: flex;
+  justify-content: end;
+}
+.background .containerAll .socialIcons div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  border-radius: 50%;
+  border: solid 1px white;
+  cursor: pointer;
+  transition: all 0.13s ease-in-out;
+}
+.background .containerAll .socialIcons div:hover {
+  border: solid 1px rgb(254, 79, 196);
+}
+.background .containerAll .socialIcons div:hover svg {
+  fill: rgb(254, 79, 196);
+}
+.background .containerAll .socialIcons div svg {
+  fill: white;
+  width: 18px;
+  transition: all 0.13s ease-in-out;
+}
+.background .containerAll .socialIcons div .facebookIcon {
+  width: 9px;
+}
+
 /*# sourceMappingURL=main.css.map */
