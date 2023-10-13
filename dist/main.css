@@ -144,6 +144,15 @@ input {
   width: 9px;
 }
 
+@media screen and (max-width: 1340px) and (min-width: 1100px) {
+  .background .containerAll .heroAndText__hero {
+    width: 550px;
+  }
+  .background .containerAll .heroAndText__text {
+    width: 500px;
+    padding-top: 20px;
+  }
+}
 @media screen and (max-width: 1100px) {
   .background {
     height: 100%;
@@ -168,6 +177,7 @@ input {
     width: 300px;
   }
   .background .containerAll .heroAndText__text {
+    width: 100%;
     padding-left: 0;
     padding-top: 62px;
   }

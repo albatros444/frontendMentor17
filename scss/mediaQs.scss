@@ -1,19 +1,18 @@
-// @media screen and (max-width: 1340px) and (min-width: 1100px) {
-//   .background {
-//     .containerAll {
-//       .heroAndText {
-//         // width: 1000px;
-
-//         &__hero {
-//           width: 550px;
-//         }
-//         &__text {
-//           width: 500px;
-//         }
-//       }
-//     }
-//   }
-// }
+@media screen and (max-width: 1340px) and (min-width: 1100px) {
+  .background {
+    .containerAll {
+      .heroAndText {
+        &__hero {
+          width: 550px;
+        }
+        &__text {
+          width: 500px;
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 1100px) {
   .background {
@@ -36,7 +35,7 @@
           width: 300px;
         }
         &__text {
-          //   width: 100%;
+          width: 100%;
           padding-left: 0;
           padding-top: 62px;
           h1 {
