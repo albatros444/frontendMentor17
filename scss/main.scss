@@ -18,14 +18,14 @@
     .logo {
       width: 212px;
       margin-bottom: 82px;
+      margin-left: -4px;
     }
     .heroAndText {
       display: flex;
       justify-content: space-between;
       width: 100%;
       margin-bottom: 20px;
-      &__hero {
-      }
+
       &__text {
         width: 620px;
         padding-left: 53px; //60px - 7px (cause hero img have 7px added from left and right)
@@ -84,6 +84,9 @@
         border: solid 1px white;
         cursor: pointer;
         transition: all 0.13s ease-in-out;
+        &:first-child {
+          margin-left: 0;
+        }
         &:hover {
           border: solid 1px rgba(254, 79, 196, 1);
           svg {
@@ -102,3 +105,5 @@
     }
   }
 }
+
+@import "mediaQs";

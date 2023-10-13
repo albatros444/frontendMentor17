@@ -60,6 +60,7 @@ input {
 .background .containerAll .logo {
   width: 212px;
   margin-bottom: 82px;
+  margin-left: -4px;
 }
 .background .containerAll .heroAndText {
   display: flex;
@@ -125,6 +126,9 @@ input {
   cursor: pointer;
   transition: all 0.13s ease-in-out;
 }
+.background .containerAll .socialIcons div:first-child {
+  margin-left: 0;
+}
 .background .containerAll .socialIcons div:hover {
   border: solid 1px rgb(254, 79, 196);
 }
@@ -138,6 +142,66 @@ input {
 }
 .background .containerAll .socialIcons div .facebookIcon {
   width: 9px;
+}
+
+@media screen and (max-width: 1100px) {
+  .background {
+    height: 100%;
+    background-image: url(/images/bg-mobile.svg);
+    align-items: start;
+    padding-top: 31px;
+  }
+  .background .containerAll {
+    width: auto;
+  }
+  .background .containerAll .logo {
+    width: 130px;
+    margin-bottom: 56px;
+  }
+  .background .containerAll .heroAndText {
+    flex-direction: column;
+    width: 302px;
+    margin-bottom: 64px;
+    text-align: center;
+  }
+  .background .containerAll .heroAndText__hero {
+    width: 300px;
+  }
+  .background .containerAll .heroAndText__text {
+    padding-left: 0;
+    padding-top: 62px;
+  }
+  .background .containerAll .heroAndText__text h1 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.005em;
+  }
+  .background .containerAll .heroAndText__text p {
+    font-size: 16px;
+  }
+  .background .containerAll .heroAndText__text button {
+    height: 40px;
+    padding-top: 4px;
+    font-size: 12px;
+    box-shadow: 3px 3px 7px hsl(258, 42%, 38%);
+  }
+  .background .containerAll .socialIcons {
+    justify-content: center;
+    width: auto;
+    padding-bottom: 40px;
+  }
+  .background .containerAll .socialIcons div {
+    width: 27px;
+    height: 27px;
+    margin-left: 10px;
+  }
+  .background .containerAll .socialIcons div svg {
+    width: 13px;
+  }
+  .background .containerAll .socialIcons div .facebookIcon {
+    width: 7px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
